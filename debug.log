@@ -1,0 +1,36 @@
+2023-02-21 17:18:40,715 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2023-02-21 17:18:40,920 - urllib3.connectionpool - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=gdfsgds&appid=6ea6c7fc7c323c9ab4518afa00054cde&units=imperial&cnt=40 HTTP/1.1" 404 40
+2023-02-21 17:18:40,928 - root - INFO - User entered invalid city gdfsgds
+2023-02-21 17:18:40,928 - root - INFO - {"cod":"404","message":"city not found"}
+2023-02-21 17:21:06,536 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2023-02-21 17:21:06,819 - urllib3.connectionpool - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=dfgdsf&appid=6ea6c7fc7c323c9ab4518afa00054cde&units=imperial&cnt=40 HTTP/1.1" 404 40
+2023-02-21 17:21:06,826 - root - INFO - User entered invalid city dfgdsf
+2023-02-21 17:21:06,827 - root - INFO - {"cod":"404","message":"city not found"}
+2023-02-21 17:21:25,631 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2023-02-21 17:21:26,002 - urllib3.connectionpool - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=fdsfsdf&appid=6ea6c7fc7c323c9ab4518afa00054cde&units=imperial&cnt=40 HTTP/1.1" 404 40
+2023-02-21 17:21:26,007 - root - INFO - User entered invalid city fdsfsdf
+2023-02-21 17:21:26,007 - root - INFO - {"cod":"404","message":"city not found"}
+2023-02-21 17:22:44,943 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2023-02-21 17:22:45,208 - urllib3.connectionpool - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=dsfsdfd&appid=6ea6c7fc7c323c9ab4518afa00054cde&units=imperial&cnt=40 HTTP/1.1" 404 40
+2023-02-21 17:22:45,210 - root - INFO - User entered invalid city dsfsdfd
+2023-02-21 17:22:45,210 - root - INFO - {"cod":"404","message":"city not found"}
+2023-02-21 17:22:45,211 - root - ERROR - 'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "c:\Users\mopin\Desktop\Code\School\Lab 6 - Consuming APIs\main.py", line 13, in main
+    print_forecast(data)
+  File "c:\Users\mopin\Desktop\Code\School\Lab 6 - Consuming APIs\main.py", line 75, in print_forecast
+    for timestamp in data:
+TypeError: 'NoneType' object is not iterable
+2023-02-22 17:51:23,881 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2023-02-22 17:51:24,159 - urllib3.connectionpool - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=Minneapolis&appid=6ea6c7fc7c323c9ab4518afa00054cde&units=imperial&cnt=40 HTTP/1.1" 200 16036
+2023-02-22 17:53:04,619 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2023-02-22 17:53:04,937 - urllib3.connectionpool - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=new+york&appid=6ea6c7fc7c323c9ab4518afa00054cde&units=imperial&cnt=40 HTTP/1.1" 200 16088
+2023-02-22 17:54:40,098 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2023-02-22 17:54:40,328 - urllib3.connectionpool - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=new+york&appid=6ea6c7fc7c323c9ab4518afa00054cde&units=imperial&cnt=40 HTTP/1.1" 200 16088
+2023-02-22 18:06:37,738 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2023-02-22 18:06:37,933 - urllib3.connectionpool - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=los+angles&appid=6ea6c7fc7c323c9ab4518afa00054cde&units=imperial&cnt=40 HTTP/1.1" 404 40
+2023-02-22 18:06:37,939 - root - INFO - User entered invalid city los angles
+2023-02-22 18:06:46,065 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2023-02-22 18:06:46,295 - urllib3.connectionpool - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=los+angeles&appid=6ea6c7fc7c323c9ab4518afa00054cde&units=imperial&cnt=40 HTTP/1.1" 200 16372
+2023-02-22 18:07:27,587 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2023-02-22 18:07:27,971 - urllib3.connectionpool - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/forecast?q=minneapolis&appid=6ea6c7fc7c323c9ab4518afa00054cde&units=imperial&cnt=40 HTTP/1.1" 200 16024
